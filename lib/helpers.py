@@ -28,6 +28,7 @@ def delete_workout(session, workout_id):
     if workout:
         session.delete(workout)
         session.commit()
+
         
     
 
